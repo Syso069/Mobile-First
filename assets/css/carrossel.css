@@ -70,10 +70,10 @@
 }
 
 .botoes__ancora {
-    background-color: var(--amarelo);
+    background-color: var(--laranja);
     padding: 1.2em 2.2em;
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
-    margin: 0.5em ;
+    margin: 0.5em 0;
 }
