@@ -7,21 +7,24 @@
 .topicos__titulo {
     color: var(--branco);
     font-weight: 300;
-    margin: 0 0 1em 0;
+    margin-bottom: 1em;
 }
 
 .topicos__lista {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .topicos__item {
-    background-color: var(--amarelo);
-    padding: 1em 2.2em;
+    margin: 2em 0.5em;
+}
+
+.topicos__link {
     color: var(--branco);
+    background-color: var(--laranja);
+    padding: 1em;
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
-    margin: 0.5em;
-    padding: 1.5em;
 }

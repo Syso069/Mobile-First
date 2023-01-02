@@ -1,35 +1,9 @@
-.novidades {
-    padding: 1em;
-}
-
-.novidades__titulo {
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.novidades__texto {
-    font-weight: 300;
-    padding: 1em 0;
-}
-
-.novidades__email {
-    background-color: transparent;
-    border: 1px solid var(--azul);
-    border-radius: 24px;
-    padding: 0.5em;
-    width: 100%;
-}
-
-.novidades__email::placeholder {
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--azul-degrade);
-    background: url(../img/Vector.svg) no-repeat;
-    text-align: center;
-    background-position: 1em;
+.hr {
+    margin: 0;
 }
 
 .rodape__texto {
+    background-color: var(--branco);
     padding: 1em;
 }
 
