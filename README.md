@@ -25,7 +25,6 @@
 
 # Tecnologias utilizadas
 
-## Front end
 - HTML / CSS 
 
 # Visualizar o projeto
