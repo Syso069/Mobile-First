@@ -59,7 +59,7 @@
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 428px){
+@media screen and (max-width: 768px){
     .container__titulo, 
     .container__titulo-secundario,
     .lista__menu-tablet-item{
