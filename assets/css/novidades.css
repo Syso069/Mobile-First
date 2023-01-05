@@ -55,3 +55,17 @@
         width: 30%;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .novidades{
+        padding: 2em;
+    }
+
+    .novidades__texto {
+        width: 60%;
+    }
+
+    .novidades__email {
+        width: 25%;
+    }
+}

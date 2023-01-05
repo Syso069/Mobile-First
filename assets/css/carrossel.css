@@ -80,7 +80,7 @@
 
 @media screen and (min-width: 1024px){
     .carrossel__titulo {
-            font-size: 26px;
+        font-size: 26px;
     }
 
     .swiper-pagination {
@@ -101,5 +101,35 @@
         width: 50%;
         margin: 3em auto;
     }
+
+}
+
+@media screen and (min-width: 1728px) {
+    .container__swiper {
+        display: flex;
+        padding: 2.5em;
+     }
+
+     .carrossel__titulo {
+        flex-direction: row;
+        font-size: 32px;
+        padding-top: 1.5em;
+    }
+
+     .swiper {
+        width: 30%;
+     }
+
+     .card {
+        width: 30%;
+     }
+
+     .descricao__titulo {
+        font-size: 32px;
+     }
+
+     .swiper-scrollbar {
+        display: none;
+     }
 
 }
