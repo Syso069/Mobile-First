@@ -43,4 +43,8 @@
     .topicos__titulo {
         font-size: 32px;
     }
+
+    .topicos {
+        padding: 3em 30vw;
+    }
 }

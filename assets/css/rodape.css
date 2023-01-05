@@ -48,8 +48,16 @@
 }
 
 @media screen and (min-width: 1728px) {
+    .lista-rodape {
+        border-left: solid 1px var(--cinza-claro);
+        padding-left: 1em;
+    }
     .lista-rodape__item {
         padding: 0.6em;
+    }
+
+    .rodape {
+        padding: 3em 0;
     }
 }
 

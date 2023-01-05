@@ -58,14 +58,7 @@
 
 @media screen and (min-width: 1728px) {
     .novidades{
-        padding: 2em;
+        padding: 2em 20vw;
     }
 
-    .novidades__texto {
-        width: 60%;
-    }
-
-    .novidades__email {
-        width: 25%;
-    }
 }

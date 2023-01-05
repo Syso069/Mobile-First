@@ -1,7 +1,7 @@
 .cabecalho__menu-hamburguer {
     width: 24px;
     height: 24px;
-    background-image: url(../img/Menu.svg);
+    background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -32,8 +32,12 @@
     width: 60%;
 }
 
-.container__botao {
-    display: none;
+.container__botao:checked~.menu-hamburguer__rotulo>.cabecalho__menu-hamburguer {
+    background-image: url("../img/MenuAberto.svg");
+}
+
+.container__botao:checked~.menu-hamburguer__rotulo {
+    background: var(--azul-degrade);
 }
 
 .container__botao:checked~.lista-menu {
@@ -60,18 +64,12 @@
 }
 
 
-.container__titulo {
+.container__titulo, 
+.opcoes, 
+.container__descricao,
+.container__botao  {
     display: none;
 }
-
-.opcoes {
-    display: none;
-}
-
-.container__descricao {
-    display: none;
-}
-
 
 @media screen and (min-width: 1024px){
     .container__titulo, 
@@ -89,14 +87,11 @@
         font-weight: 700;
     }
 
-    .container__imagem-favoritos {
+    .container__imagem-favoritos, 
+    .cabecalho__menu-hamburguer,
+    .opcoes__botao {
         display: none;
     }
-
-    .cabecalho__menu-hamburguer{
-        display: none;
-    }
-
 
     .opcoes{
         display: flex;
@@ -113,23 +108,49 @@
         width: auto;
     }
 
-    .opcoes__botao {
-        display: none;
+    .opcoes__botao:checked~.opcoes__rotulo>.opcoes__item{
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .opcoes__item,
+    .opcoes__link {
+        padding: 2em 1em;
+    }
+
+    .lista-menu__item:hover {
+        background: var(--azul-degrade);
+    }
+
+    .lista-menu__item:hover>.lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
+
+    .opcoes__link:hover {
+        background: var(--azul-degrade);
+        color: var(--branco);
     }
 }
 
 @media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        color: var(--preto);
+        text-decoration: none;
+    }
+
     .cabecalho {
-        justify-content: space-around;
+        padding: 0 2em;
     }
 
     .opcoes {
-        margin-right: 5em;
+        margin-right: auto;
     }
 
     .container__descricao {
         display: block;
-        align-items: center;
-        font-size: 20px;
     }
+
 }
