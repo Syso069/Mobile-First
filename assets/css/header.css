@@ -127,7 +127,7 @@
         text-decoration: none;
     }
 
-    .opcoes__link:hover {
+    .opcoes__item:hover {
         background: var(--azul-degrade);
         color: var(--branco);
     }
