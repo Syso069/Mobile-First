@@ -29,7 +29,7 @@
 ## Layout Desktop
 <div style="display: inline_block"><br>
 <img height="600" alt="Imagem mobile alura books" src="https://user-images.githubusercontent.com/94554205/210881679-68a88910-ff79-4c3f-ab50-300d17841033.png">
-<img height="600" alt="Imagem mobile alura books" src="https://user-images.githubusercontent.com/94554205/210814516-fca0d334-8f6f-4258-a961-cb7e825194f3.png">
+<img height="600" alt="Imagem mobile alura books" src="https://user-images.githubusercontent.com/94554205/210881930-828c47de-9de2-45c0-9a25-5f684a45f911.png">
 </div>
 
 # Tecnologias utilizadas
