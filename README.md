@@ -28,8 +28,8 @@
 
 ## Layout Desktop
 <div style="display: inline_block"><br>
-<img height="800" alt="Imagem mobile alura books" src="https://user-images.githubusercontent.com/94554205/210814391-f2d2dec3-4354-4690-940b-37e4508bb5b0.png">
-<img height="800" alt="Imagem mobile alura books" src="https://user-images.githubusercontent.com/94554205/210814516-fca0d334-8f6f-4258-a961-cb7e825194f3.png">
+<img height="600" alt="Imagem mobile alura books" src="https://user-images.githubusercontent.com/94554205/210814391-f2d2dec3-4354-4690-940b-37e4508bb5b0.png">
+<img height="600" alt="Imagem mobile alura books" src="https://user-images.githubusercontent.com/94554205/210814516-fca0d334-8f6f-4258-a961-cb7e825194f3.png">
 </div>
 
 # Tecnologias utilizadas
