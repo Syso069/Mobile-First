@@ -62,7 +62,12 @@
 
 .descricao__texto {
     font-size: 14px;
-    padding: 0.5em 0;
+    padding: 0.5em 4em 0.5em 0;
+}
+
+.descricao__imagem {
+    width: 30%;
+    border-radius: 1em;
 }
 
 .botoes__item {
@@ -76,6 +81,8 @@
     font-weight: 700;
     text-decoration: none;
     margin: 0.5em 0;
+    border-radius: 1em;
+    width: 18%;
 }
 
 @media screen and (min-width: 1024px){

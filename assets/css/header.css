@@ -21,8 +21,12 @@
     
 }
 
+.container__imagem_logo {
+    width: 24%;
+}
+
 .container__imagem {
-    padding: 1em;
+    padding: 1em; 
 }
 
 .lista-menu {
